@@ -3,6 +3,7 @@
   "displayName": "Vue-Snippets",
   "description": "",
   "version": "0.0.1",
+  "publisher": "ms-vscode",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -20,5 +21,9 @@
         "path": "./snippets/snippets-typescript.code-snippets"
       }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
   }
 }
