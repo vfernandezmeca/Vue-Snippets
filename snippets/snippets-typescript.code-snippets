@@ -1,0 +1,18 @@
+{
+    "Generate defineProps": {
+        "prefix": "Vue-props",
+        "body": [
+            "  defineProps({",
+            "    $1: { type: $2, required: $3, default: $4 },",
+            "  })",
+        ]
+    },
+    "Generate defineEmits": {
+        "prefix": "Vue-emits",
+        "body": [
+            "  defineEmits<{",
+            "    (e: '$1'): $2",
+            "  }>()",
+        ]
+    },
+}

@@ -1,0 +1,59 @@
+{
+    "Generate default Init component": {
+        "prefix": "Vue-init",
+        "body": [
+            "<script lang='ts' setup>",
+            "</script>",
+            "<template>",
+            "</template>",
+            "<style lang='scss' scoped>",
+            "</style>"
+        ]
+    },
+    "Generate complete Init component": {
+        "prefix": "Vue-init-complete",
+        "body": [
+            "<script lang='ts' setup>",
+            "  defineProps({",
+            "    $1: { type: $2, required: $3, default: $4 },",
+            "  })",
+            "  defineEmits<{",
+            "    (e: '$5'): $6",
+            "  }>()",
+            "</script>",
+            "<template>",
+            "</template>",
+            "<style lang='scss' scoped>",
+            "</style>"
+        ]
+    },
+    "Generate Init component + define props": {
+        "prefix": "Vue-init-props",
+        "body": [
+            "<script lang='ts' setup>",
+            "  defineProps({",
+            "    $1: { type: $2, required: $3, default: $4 },",
+            "  })",
+            "</script>",
+            "<template>",
+            "</template>",
+            "<style lang='scss' scoped>",
+            "</style>"
+        ]
+    },
+    "Generate Init component + define emits": {
+        "prefix": "Vue-init-emits",
+        "body": [
+            "<script lang='ts' setup>",
+            "  defineEmits<{",
+            "    (e: '$1'): $2",
+            "  }>()",
+            "</script>",
+            "<template>",
+            "</template>",
+            "<style lang='scss' scoped>",
+            "</style>"
+        ]
+    },
+
+}
