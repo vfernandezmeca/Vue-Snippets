@@ -1,9 +1,9 @@
 {
-  "name": "vue-snippets",
-  "displayName": "Vue-Snippets",
+  "name": "vue-snippets-VF",
+  "displayName": "Vue-Snippets-VF",
   "description": "",
   "version": "0.0.1",
-  "publisher": "ms-vscode",
+  "publisher": "VueSnippets",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -21,9 +21,6 @@
         "path": "./snippets/snippets-typescript.code-snippets"
       }
     ]
-  },
-  "scripts": {
-    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
   }
+
 }
